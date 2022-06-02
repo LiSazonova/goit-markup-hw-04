@@ -32,8 +32,17 @@
             </nav>
             <div class="header-connect">
                 <ul class="header-list list">
-                    <li><a class="header-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a class="header-tel link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                    <li><a class="header-mail link" href="mailto:info@devstudio.com">
+                            <svg class="header-mail-icon" width="16" height="12">
+                                <use href="./images/symbol-defs.svg#icon-envelope"></use>
+                            </svg>
+                            info@devstudio.com</a>
+                    </li>
+                    <li><a class="header-tel link" href="tel:+380961111111">
+                            <svg class="header-tel-icon" width="10" height="16">
+                                <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+                            </svg>
+                            +38 096 111 11 11</a></li>
                 </ul>
             </div>
         </div>
@@ -149,20 +158,56 @@
     </main>
     <!--Footer-->
     <footer class="footer">
-        <div class="container">
-            <a href="" class="footer-logo link"><span class="logo-accent">Web</span>Studio</a>
-            <address class="footer-address">
-                <ul class="footer-list list">
-                    <li class="footer-item"><a class="footer-link link" href="https://goo.gl/maps/haABjZdnL3CjeKai8"
-                            target="_blank" rel="noopener noreferrer">
-                            г. Киев, пр-т Леси Украинки, 26</a></li>
-                    <li class="footer-item"><a class="footer-mail link"
-                            href="mailto:info@example.com">info@example.com</a>
+        <div class="container footer-container">
+            <div class="footer-address">
+                <a href="" class="footer-logo link"><span class="logo-accent">Web</span>Studio</a>
+                <address class="footer-address">
+                    <ul class="footer-list list">
+                        <li class="footer-item"><a class="footer-link link" href="https://goo.gl/maps/haABjZdnL3CjeKai8"
+                                target="_blank" rel="noopener noreferrer">
+                                г. Киев, пр-т Леси Украинки, 26</a></li>
+                        <li class="footer-item"><a class="footer-mail link"
+                                href="mailto:info@example.com">info@example.com</a>
+                        </li>
+                        <li class="footer-item"><a class="footer-tel link" href="tel:+380991111111">+38 099 111 11
+                                11</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+            <div class="footer-soc">
+                <h2 class="footer-title">Присоединяйтесь</h2>
+                <ul class="footer-soc-list list">
+                    <li class="footer-soc-item">
+                        <a class="footer-soc-link link" href="">
+                            <svg class="footer-soc-icon" width="20" height="20">
+                                <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li class="footer-item"><a class="footer-tel link" href="tel:+380991111111">+38 099 111 11 11</a>
+                    <li class="footer-soc-item">
+                        <a class="footer-soc-link link" href="">
+                            <svg class="footer-soc-icon" width="20" height="20">
+                                <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-soc-item">
+                        <a class="footer-soc-link link" href="">
+                            <svg class="footer-soc-icon" width="20" height="20">
+                                <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-soc-item">
+                        <a class="footer-soc-link link" href="">
+                            <svg class="footer-soc-icon" width="20" height="20">
+                                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
                     </li>
                 </ul>
-            </address>
+            </div>
         </div>
     </footer>
 </body>
