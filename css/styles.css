@@ -56,6 +56,7 @@ body {
 
 .link {
     text-decoration: none;
+    outline: transparent;
 }
 
 .header {
@@ -112,14 +113,10 @@ body {
     color: var(--first-accent-color);
 }
 
-.header-list li:not(:first-child) {
-    margin-left: 50px;
-}
-
 .header-mail,
 .header-tel {
     display: flex;
-    justify-content: first baseline;
+    align-items: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -137,6 +134,10 @@ body {
 .header-mail:focus,
 .header-tel:focus {
     color: var(--first-accent-color);
+}
+
+.header-tel {
+    margin-left: 30px;
 }
 
 .header-connect {
@@ -421,6 +422,10 @@ body {
     margin-right: 0;
 }
 
+/* .clients-link {
+    outline: transparent;
+} */
+
 .clients-icon {
     fill: var(--icon-color);
     border: 1px solid #AFB1B8;
@@ -596,8 +601,11 @@ body {
     background-color: #fff;
 }
 
-.work-link:hover {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+.work-link:hover,
+.work-link:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .work-title {
